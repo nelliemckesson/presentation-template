@@ -1,6 +1,7 @@
 {
   "files": [
-    "presentation.html"
+    "presentation.html",
+    "sample.html"
   ],
   "formats": {
     "pdf": {
@@ -21,10 +22,8 @@
       "index": false,
       "toc": false,
       "consolidated": true,
-      "javascripts" : [
-      ],
-      "stylesheets" : [
-      ]
+      "javascripts": [],
+      "stylesheets": []
     }
   },
   "theme": "oreillymedia/oreilly_presentation_theme",
