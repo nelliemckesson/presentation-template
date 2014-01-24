@@ -1,5 +1,12 @@
-section.slide {
-  
+section[data-type="chapter"]:before, 
+section[data-type="chapter"]:after {
+    display: table;
+    content: "";
+    line-height: 0; 
+}
+
+section[data-type="chapter"]:after {
+    clear: both;
 }
 
 [class*="span"] {
